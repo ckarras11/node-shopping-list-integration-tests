@@ -1,2 +1,9 @@
 language: node_js
 node_js: node
+deploy:
+  provider: heroku
+  api_key:
+    secure: bvcBnrFXXtWXyw9DBpIZC1GfUP5Eb0ZUp9cciP/FolRrsM/uLQyhc7Cn8bEm5ap014uus1z3RdLkmdTeE0XTZbAzCfMw/gXmMsAsEoYGqeToXRGHRemc1lXd8ZXGQ/2wm02/9dEXvrGd7ujDrmBAtVM1f1wnKl1E+H5anE+OZ5RpnR8LoLbCxetj+211XW9LnxT2/Gk7hQdEa9IAoDN1zfueVkZOSrDprgdK50jSdcvVbPLSchkaqyIZYcX3/tBGeF2szPLpNwtTxja3oPvuFVs0CSIMDeIMbQWxMvUDQuAooy14e15oL5KsJwC6DSVWImioGjjN+1bi7sdcojM/wH0Me4Omb4mZqo8Ft/S3inMZJGeOelDxUNkKWDHpUHFzr7rmG+Iial3eIFOOc+zY1fhM3jVEIEz63buJzjqHHiCFCjtJroWv6S3rbLi2gL4LISuNMx/9y3TWkBaqZuRzlWBeMQw7OtvdF/SLWPB+SNyUVitNZV46MbULEkv69yW5PCw480c8RMZtVYVhTB7cF8QAltsAQNPsBtMwiS+RiRNHAzmNfvtSSUQm3Gm62AC7bn8WzwGQFKWtUJVcrHAbGSkGEok3haOAl/Xj6gV60CKSrY7hlbkATR/12OzeKBw4JpG5Mkgf0DVAA6qQVazUYJlHa5tTDyByQuiJLCLBIu4=
+  app: guarded-savannah-42066
+  on:
+    repo: ckarras11/node-shopping-list-integration-tests
